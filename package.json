@@ -1,0 +1,30 @@
+{
+  "name": "legg-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "tsc -p .",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "date-fns-tz": "^3.3.0",
+    "dotenv": "^16.5.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.2.2",
+    "pg": "^9.6.0",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.11.3",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.4.0"
+  }
+}
